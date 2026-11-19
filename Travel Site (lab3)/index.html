@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блог про подорожі - Світ Навколо</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="layout">
+    <!-- Шапка сайту -->
+    <header class="layout-header">
+      <a href="index.html" class="logo-text">СВІТ НАВКОЛО</a>
+      <nav aria-label="Головне меню">
+        <a href="index.html">ГОЛОВНА</a>
+        <a href="destinations.html">НАПРЯМКИ</a>
+        <a href="tips.html">ПОРАДИ</a>
+        <a href="iceland.html">ІСЛАНДІЯ</a>
+        <a href="#about">ПРО АВТОРА</a>
+      </nav>
+      <div class="header-icons">
+        <a href="#">🔍</a>
+        <a href="#">☰</a>
+      </div>
+    </header>
+
+    <!-- Ліва бічна панель -->
+    <aside class="layout-left" aria-label="Ліва панель">
+      <div class="sidebar-header">
+        <img src="images/logo.svg" alt="Логотип" class="site-logo">
+        <h1>СВІТ<br>НАВКОЛО</h1>
+        <p class="subtitle">АВТОРСЬКИЙ БЛОГ ПРО ПОДОРОЖІ, МАРШРУТИ ТА ЖИТТЯ БЕЗ КОРДОНІВ</p>
+      </div>
+
+      <!-- Міні-пости у сайдбарі -->
+      <div class="mini-posts">
+        <article class="mini-post">
+          <img src="images/sidebar1.jpg" alt="Осінні Карпати">
+          <div class="mini-post-info">
+            <h4>ОСІННІ КАРПАТИ: МАРШРУТИ ДЛЯ ПОЧАТКІВЦІВ</h4>
+            <time>ЖОВТЕНЬ 20, 2026</time>
+          </div>
+        </article>
+        <article class="mini-post">
+          <img src="images/sidebar2.jpg" alt="Відень">
+          <div class="mini-post-info">
+            <h4>ВІКЕНД У ВІДНІ: ЩО ПОДИВИТИСЯ ЗА 2 ДНІ</h4>
+            <time>ЖОВТЕНЬ 15, 2026</time>
+          </div>
+        </article>
+      </div>
+
+      <!-- Блок про автора -->
+      <section class="about" id="about">
+        <h2>ПРО АВТОРА</h2>
+        <p>Привіт! Я обожнюю відкривати нові країни, досліджувати нетипові маршрути та куштувати місцеву вуличну їжу. Тут я ділюся перевіреними лайфхаками для бюджетних мандрівок, щоб надихнути вас на власні пригоди.</p>
+        <a href="tips.html" class="btn">ДІЗНАТИСЯ БІЛЬШЕ</a>
+      </section>
+
+      <!-- Підвал -->
+      <footer class="sidebar-footer">
+        <div class="socials">
+          <a href="#">In</a> <a href="#">Fb</a> <a href="#">Tg</a>
+        </div>
+        <p class="copyright">&copy; СВІТ НАВКОЛО. ДИЗАЙН ЗА ЗРАЗКОМ FUTURE IMPERFECT.</p>
+      </footer>
+    </aside>
+
+    <!-- Основний контент (Статті) -->
+    <main class="layout-main">
+      <article class="post">
+        <header class="post-header">
+          <div class="post-title">
+            <h2><a href="iceland.html">НЕЗВІДАНА ІСЛАНДІЯ: КРАЇНА ЛЬОДУ ТА ВОГНЮ</a></h2>
+            <p>ПОВНИЙ ГАЙД ПО ОСТРОВУ ДЛЯ ТИХ, ХТО ПОДОРОЖУЄ НА АВТО</p>
+          </div>
+          <div class="post-meta">
+            <time>ЛИСТОПАД 1, 2026</time>
+            <div class="author">
+              <span class="author-name">ІГОР МАНДР</span>
+              <img src="images/avatar.jpg" alt="Аватар автора" class="avatar">
+            </div>
+          </div>
+        </header>
+        <a href="iceland.html" class="image-featured"><img src="images/banner1.jpg" alt="Пейзажі Ісландії"></a>
+        <p>Ісландія — це місце, де природа щодня показує всю свою неймовірну міць. Тут ви можете побачити гейзери, які вистрілюють окропом на десятки метрів у небо, величні водоспади та нескінченні чорні вулканічні пляжі. Оренда автомобіля — це найкращий і часто єдиний зручний спосіб дослідити цей віддалений острів у своєму темпі. Не забудьте запакувати надійний вітрівковий одяг, адже погода тут може кардинально змінитися тричі за одну годину!</p>
+        <div class="post-footer">
+          <a href="iceland.html" class="btn">ЧИТАТИ ДАЛІ</a>
+          <div class="post-stats">ПОДОРОЖІ ❤️ 124</div>
+        </div>
+      </article>
+
+      <article class="post">
+        <header class="post-header">
+          <div class="post-title">
+            <h2>5 ПРИЧИН ВІДВІДАТИ ПОРТУГАЛІЮ ЦІЄЮ ВЕСНОЮ</h2>
+            <p>ТЕПЛИЙ ОКЕАН, СМАЧНА ЇЖА ТА НЕДОРОГІ КВИТКИ З ЄВРОПИ</p>
+          </div>
+          <div class="post-meta">
+            <time>ЖОВТЕНЬ 25, 2026</time>
+            <div class="author">
+              <span class="author-name">ІГОР МАНДР</span>
+              <img src="images/avatar.jpg" alt="Аватар автора" class="avatar">
+            </div>
+          </div>
+        </header>
+        <a href="destinations.html" class="image-featured"><img src="images/banner2.jpg" alt="Португалія"></a>
+        <p>Португалія миттєво зачаровує своєю теплою і невимушеною атмосферою. Від брукованих вузьких вуличок Лісабона, де лунає фаду, до безкраїх зелених виноградників долини Дору — кожен знайде тут ідеальний відпочинок. Обов'язково спробуйте місцевий десерт паштел-де-ната з філіжанкою міцної кави та знайдіть час, щоб насолодитися приголомшливим заходом сонця на мисі Рока, який є найзахіднішою точкою континентальної Європи.</p>
+        <div class="post-footer">
+          <a href="destinations.html" class="btn">ЧИТАТИ ДАЛІ</a>
+          <div class="post-stats">ПОРАДИ ❤️ 89</div>
+        </div>
+      </article>
+    </main>
+  </div>
+</body>
+</html>
